@@ -1,0 +1,110 @@
+.calculator-container {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+}
+
+.calculator {
+  border: 1px solid #507dbc;
+  width: 375px;
+  padding: 10px;
+}
+
+.calculator .input {
+  border: 1px solid #a1c6ea;
+  border-radius: 1px;
+  height: 60px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 16px;
+  overflow-x: auto;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  background-color: #fff;
+}
+
+.calculator .input:hover {
+}
+
+.calculator .buttons {
+}
+
+.calculator .operators {
+}
+
+.calculator .operators div {
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 1px;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 4px 10px 0;
+  cursor: pointer;
+  background-color: #212121;
+  color: #fff;
+}
+
+.calculator .operators div:hover {
+  border-color: #507dbc;
+}
+
+.calculator .operators div:active {
+  font-weight: bold;
+}
+
+.leftPanel {
+  display: inline-block;
+}
+
+.calculator .numbers div {
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 4px 10px 0;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.calculator .numbers div:hover {
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: #bbb;
+}
+
+.calculator .numbers div:active {
+  font-weight: bold;
+}
+
+.calculator div.equal {
+  display: inline-block;
+  border: 1px solid #3079ed;
+  border-radius: 1px;
+  width: 17%;
+  text-align: center;
+  padding: 127px 10px;
+  margin: 10px 6px 10px 0;
+  vertical-align: top;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4d90fe;
+  transition: all 0.2s ease-in-out;
+}
+
+.calculator div.equal:hover {
+  background-color: #307cf9;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: #1857bb;
+}
+
+.calculator div.equal:active {
+  font-weight: bold;
+}

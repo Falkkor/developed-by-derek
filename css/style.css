@@ -79,6 +79,22 @@ body {
   color: #a1c6ea;
   font-size: 12px;
 }
+.card button {
+  background-color: #507dbc;
+  padding: 10px;
+  border: 1px solid white;
+  margin: 10px;
+  font-size: 24px;
+  color: white;
+}
+.card button:hover {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #507dbc;
+  margin: 10px;
+  font-size: 24px;
+  color: #507dbc;
+}
 
 .row:after {
   content: "";
@@ -121,4 +137,14 @@ body {
 a {
   color: #a1c6ea;
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 15px;
+  color: #fff;
+  font-size: 14px;
+}
+li {
+  padding: 5px;
 }
