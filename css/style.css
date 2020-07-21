@@ -139,12 +139,12 @@ a {
   text-decoration: none;
 }
 
-ul {
+.card ul {
   list-style-type: none;
   margin-left: 15px;
   color: #fff;
   font-size: 14px;
 }
-li {
+.card li {
   padding: 5px;
 }
